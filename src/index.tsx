@@ -2,17 +2,15 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import { HashRouter as Router, Switch, Route } from 'react-router-dom';
 import './index.css';
-import App from './App';
 import reportWebVitals from './reportWebVitals';
-import Radar from './Radar';
+import EngineeringSkills from './EngineeringSkills/EngineeringSkills';
 
 ReactDOM.render(
   <React.StrictMode>
     <Router>
       <div className='content'>
         <Switch>
-          <Route exact path='/' component={App} />
-          <Route exact path='/radar' component={Radar} />
+          <Route exact path='/' component={EngineeringSkills} />
         </Switch>
       </div>
     </Router>

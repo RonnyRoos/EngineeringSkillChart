@@ -8,7 +8,7 @@ type TasteData = {
     syrah?: number;
 }
 
-const Radar = () => {
+const EngineeringSkills = () => {
     const initialData: TasteData[] = [
         {
             taste: "social",
@@ -131,4 +131,4 @@ const Radar = () => {
 }
 
 
-export default Radar;
+export default EngineeringSkills;
